@@ -37,7 +37,7 @@
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                                 <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="{{ path('detail', {id: annonce.id}) }}">See Details</a></div>
                             </div>
-                            <span class="text-center text-success">Updated:at {{ annonce.updatedat|date('Y-m-d') }}</span>
+                            <span class="text-center text-success">Updated on  {{ annonce.updatedat|date('Y-m-d') }}</span>
                         </div>
                     </div>
                     {% endfor %}
